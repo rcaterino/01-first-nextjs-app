@@ -1,0 +1,9 @@
+## en este archivo especificamos las rutas y/o archivos que 
+## queremos sean ignorados al crear la imagen en Docker porque
+## estos deben generarse al momento de construirse en producción.
+Dockerfile
+.dockerignore
+node_modules
+npm-debug.log
+README.md
+.next
